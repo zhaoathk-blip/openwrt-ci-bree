@@ -21,6 +21,9 @@ jobs:
   Build:
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: write
+
     steps:
     - name: Check Server Performance(检查服务器性能)
       run: |
